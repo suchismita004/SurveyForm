@@ -1,5 +1,10 @@
 # SurveyForm
 @AscentAcademy
 <hr>
-FILL THE FORM :[https://suchismita004.github.io/SurveyForm/]
-<BR>
+<hr>
+To FILL THE FORM :
+
+[Click Me](https://suchismita004.github.io/SurveyForm/)
+
+This site was built using Github 
+
