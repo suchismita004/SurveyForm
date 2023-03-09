@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+        <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+    <meta charset = "UTF-8" />
+<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h2 align="center" style="color:#fff; background-color:#a733d9; paddin:30px;" >SURVEY FORM</h2>
+    <h4 align="center"> It's a survey form by UNICEF</h4>
+    <form action="url" autocomplete="off">
+        <label><b>Name</b></label>
+        <input type="text" name="Name" placeholder="First Name & Last Name" required/><br/>
+        <br/>
+        <label><b>Email</b></label>
+        <input type="email" name"email" placeholder="example@gmail.com"required/><br/>
+        <br/>
+        <label><b>Age (optional)</b></label>
+        <input type="number" name"age"/><br/>
+        <br/>
+        <label><b>Gender</b></label><br>
+        <input type="radio" name="gender" value="male"/>male<br/>
+        <input type="radio" name="gender" value="female"/>female<br/>
+        <hr><br/>
+        <label><b>Are you Married? </b></label><br>
+        <input type="radio" name="radio" value="yes"/>yes<br>
+        <input type="radio" name="radio" value="no"/>no<br>
+        <br>
+       <fieldset>
+          <legend><b>which option best describe your current role?</b></legend>
+             <label>option</label>
+             <select id = "myList">
+               <option value = "1">employed</option>
+               <option value = "2">student</option>
+               <option value = "3">unemployed</option>
+               <option value = "4">others</option>
+             </select>
+       </fieldset>
+       <p>
+        <label><b>In which continent you live?</b></label>
+    </p>
+    <input type="radio"name="continent"value="continent" />ASIA <br />
+    <input type="radio"name="continent"value="continent" />AFRICA <br />
+    <input type="radio"name="continent"value="continent" />NORTH AMERICA <br />
+    <input type="radio"name="continent"value="continent" />SOUTH AMERICA <br />
+    <input type="radio"name="continent"value="continent" />EUROPE <br />
+    <input type="radio"name="continent"value="continent" />OCEANIA <br />
+    <hr>
+    <p>
+        <label><b>What is your favourite programming language?</b></label>
+    </p>
+    <input type="checkbox"name="code"value="1" />C# <br />
+    <input type="checkbox"name="code"value="2" />C++ <br />
+    <input type="checkbox"name="code"value="3" />HTML <br />
+    <input type="checkbox"name="code"value="4" />PYTHON <br />
+    <input type="checkbox"name="code"value="5" />JAVA <br />
+       <br>
+       <label><b>Any comment or suggestion</b></label><br>
+       <textarea></textarea><br>
+       <br>
+       <input type="submit" value="submit"/><br>
+       <br>
+    </form>
+    <div id="copy">&copy;SUCHISMITA BEHERA</div>
+  </body>
+</html>

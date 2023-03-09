@@ -1,0 +1,9 @@
+body {
+    font-size: 15pt;
+}
+form {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #e6c7e8;
+}
